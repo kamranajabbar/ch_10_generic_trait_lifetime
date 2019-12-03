@@ -1,3 +1,4 @@
+// Generics //
 //mod without_generic;
 //mod without_generic_fn;
 
@@ -10,9 +11,13 @@
 //mod one_generic_in_method;
 //mod more_generic_in_method;
 
-mod performance_code_generic;
+//mod performance_code_generic;
+
+// Traits //
+mod traits;
 
 fn main() {
+    // Generics //
     //without_generic::run();
     //without_generic_fn::run();
 
@@ -26,5 +31,8 @@ fn main() {
     //more_generic_in_method::run();
 
     //performance_code_generic::run();
-    performance_code_generic::run_updated();
+    //performance_code_generic::run_updated();
+
+    // Traits //
+    traits::run();
 }
