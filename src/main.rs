@@ -8,7 +8,9 @@
 //mod more_generic_in_structs;
 
 //mod one_generic_in_method;
-mod more_generic_in_method;
+//mod more_generic_in_method;
+
+mod performance_code_generic;
 
 fn main() {
     //without_generic::run();
@@ -21,5 +23,8 @@ fn main() {
     //more_generic_in_structs::run();
 
     //one_generic_in_method::run();
-    more_generic_in_method::run();
+    //more_generic_in_method::run();
+
+    //performance_code_generic::run();
+    performance_code_generic::run_updated();
 }
