@@ -25,7 +25,7 @@ pub fn run() {
         // Custome impl
         //fn power_scroe(&self) -> u8; 
         
-        
+        //SDSD
 
         /* When we have same value for two or more superheres, so we have to used Default impl */
         // Default impl
