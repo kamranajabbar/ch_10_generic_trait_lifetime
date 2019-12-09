@@ -9,12 +9,13 @@
 //mod more_generic_in_structs;
 
 //mod one_generic_in_method;
-//mod more_generic_in_method;
+mod more_generic_in_method;
 
 //mod performance_code_generic;
 
 // Traits //
-mod traits;
+//mod traits;
+//mod traits_1;
 
 fn main() {
     // Generics //
@@ -28,11 +29,12 @@ fn main() {
     //more_generic_in_structs::run();
 
     //one_generic_in_method::run();
-    //more_generic_in_method::run();
+    more_generic_in_method::run();
 
     //performance_code_generic::run();
     //performance_code_generic::run_updated();
 
     // Traits //
-    traits::run();
+    //traits::run();
+    //traits_1::run();
 }
