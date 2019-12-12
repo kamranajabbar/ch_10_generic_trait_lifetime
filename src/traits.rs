@@ -19,7 +19,6 @@ pub fn run() {
         name: String,
     }
 
-
     pub trait Power {
         /* When we have defferent values for each superhere, so we have to used Custome impl*/
         // Custome impl
@@ -64,7 +63,6 @@ pub fn run() {
     impl Power for Hulk {}
     impl Power for Spiderman {}
     
-
     let my_superman = Superman {
         name : String::from("Superman"),
     };
