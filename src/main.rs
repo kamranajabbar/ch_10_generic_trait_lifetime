@@ -19,7 +19,10 @@
 //mod traits_with_multiple_methods;
 //mod traits_with_bound_syntax;
 //mod traits_with_bound_syntax_refector;
-mod traits_returning_types_that_implement_traits;
+//mod traits_returning_types_that_implement_traits;
+
+// Lifetime //
+
 
 fn main() {
     // Generics //
@@ -44,5 +47,8 @@ fn main() {
     //traits_with_multiple_methods::run();
     //traits_with_bound_syntax::run();
     //traits_with_bound_syntax_refector::run();
-    traits_returning_types_that_implement_traits::run();
+    //traits_returning_types_that_implement_traits::run();
+
+    // Lifetime //
+    
 }
