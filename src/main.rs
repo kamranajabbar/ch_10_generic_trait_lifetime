@@ -22,7 +22,9 @@
 //mod traits_returning_types_that_implement_traits;
 
 // Lifetime //
-
+//mod lifetime_in_function;
+//mod lifetime_in_function_2;
+//mod lifetime_in_struct;
 
 fn main() {
     // Generics //
@@ -50,5 +52,7 @@ fn main() {
     //traits_returning_types_that_implement_traits::run();
 
     // Lifetime //
-    
+    //lifetime_in_function::run();
+    //lifetime_in_function_2::run();
+    lifetime_in_struct::run();
 }
