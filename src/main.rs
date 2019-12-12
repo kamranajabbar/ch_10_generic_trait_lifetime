@@ -18,7 +18,8 @@
 //mod traits_with_custome_impl;
 //mod traits_with_multiple_methods;
 //mod traits_with_bound_syntax;
-mod traits_with_bound_syntax_refector;
+//mod traits_with_bound_syntax_refector;
+mod traits_returning_types_that_implement_traits;
 
 fn main() {
     // Generics //
@@ -42,5 +43,6 @@ fn main() {
     //traits_with_custome_impl::run();
     //traits_with_multiple_methods::run();
     //traits_with_bound_syntax::run();
-    traits_with_bound_syntax_refector::run();
+    //traits_with_bound_syntax_refector::run();
+    traits_returning_types_that_implement_traits::run();
 }
