@@ -16,7 +16,8 @@
 // Traits //
 //mod traits_with_custome_and_default_impl;
 //mod traits_with_custome_impl;
-mod traits_with_multiple_methods;
+//mod traits_with_multiple_methods;
+mod traits_with_bound_syntax;
 
 fn main() {
     // Generics //
@@ -38,5 +39,6 @@ fn main() {
     // Traits //
     //traits_with_custome_and_default_impl::run();
     //traits_with_custome_impl::run();
-    traits_with_multiple_methods::run();
+    //traits_with_multiple_methods::run();
+    traits_with_bound_syntax::run();
 }
