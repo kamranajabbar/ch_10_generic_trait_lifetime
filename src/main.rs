@@ -25,6 +25,7 @@
 //mod lifetime_in_function;
 //mod lifetime_in_function_2;
 //mod lifetime_in_struct;
+mod lifetine_elision_rules;
 
 fn main() {
     // Generics //
@@ -55,4 +56,5 @@ fn main() {
     //lifetime_in_function::run();
     //lifetime_in_function_2::run();
     //lifetime_in_struct::run();
+    lifetine_elision_rules::run();
 }
