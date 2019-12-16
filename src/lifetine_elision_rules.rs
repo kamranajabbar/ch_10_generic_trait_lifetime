@@ -18,6 +18,9 @@
     NOTE:
     As a programmer, we do not to follow, but complier follow these rules. As these rules applies on function bodies and implementation bodies (impl).
 
+
+    ---------------------------- Rules ---------------------------- 
+
     Elision lifetime Rule 1:
     The first rule is that each parameter that is a reference gets its own lifetime parameter.
 
@@ -71,7 +74,11 @@ pub fn run() {
         &s[..]
     }
 
-    // With lifetime annotation
+    // Function with lifetime annotation
+    // As compiler will infer lifetime paramters automatically
+    // Rule 1 and 2 are implementated by compiler
+    // Rule 3 is not applicable as "self" parameter is not using here.
+
     // fn first_words <'a> (s: &'a str) -> &'a str {
     //     let bytes = s.as_bytes();
     //     println!("{:#?}", bytes);
