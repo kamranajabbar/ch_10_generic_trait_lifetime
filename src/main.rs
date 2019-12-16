@@ -54,5 +54,5 @@ fn main() {
     // Lifetime //
     //lifetime_in_function::run();
     //lifetime_in_function_2::run();
-    lifetime_in_struct::run();
+    //lifetime_in_struct::run();
 }
